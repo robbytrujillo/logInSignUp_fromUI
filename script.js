@@ -1,4 +1,4 @@
-$("#signup").click(function() {
+$("#signup").click(function () {
     $(".message").css("transform", "translateX(100%)");
     if ($("message").hasClass("login")) {
         $(".message").removeClass("login");
@@ -6,10 +6,10 @@ $("#signup").click(function() {
     $(".message").addClass("signup");
 });
 
-// $("#login").click(function() {
-//     $(".message").css("transform", "translateX(0%)");
-//     if ($("message").hasClass("login")) {
-//         $(".message").removeClass("signup");
-//     }
-//     $(".message").addClass("login");
-// });
+$("#login").click(function () {
+    $(".message").css("transform", "translateX(0%)");
+    if ($("message").hasClass("login")) {
+        $(".message").removeClass("signup");
+    }
+    $(".message").addClass("login");
+});
