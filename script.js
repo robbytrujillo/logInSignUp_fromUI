@@ -6,10 +6,10 @@ $("#signup").click(function() {
     $(".message").addClass("signup");
 });
 
-$("#login").click(function() {
-    $(".message").css("transform", "translateX(0%)");
-    if ($("message").hasClass("login")) {
-        $(".message").removeClass("login");
-    }
-    $(".message").addClass("login");
-});
+// $("#login").click(function() {
+//     $(".message").css("transform", "translateX(0%)");
+//     if ($("message").hasClass("login")) {
+//         $(".message").removeClass("signup");
+//     }
+//     $(".message").addClass("login");
+// });
