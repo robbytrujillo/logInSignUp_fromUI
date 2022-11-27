@@ -64,7 +64,7 @@ body {
   left: 100%;
 }
 
-btn-wrapper {
+.btn-wrapper {
   width: 60%;
 }
 
@@ -80,6 +80,52 @@ btn-wrapper {
   font-family: "Source Sans Pro", sans-serif;
 }
 
-.font-signup {
+.form-signup {
   before-right: 1px solid #999;
+}
+
+form {
+  width: 70%;
+}
+
+form > * {
+  margin: 10px;
+}
+
+form input {
+  width: 90%;
+  border: 0;
+  border-bottom: 1px solid #aaa;
+  font-size: 13px;
+  font-weight: 300;
+  color: #797a9e;
+  letter-spacing: 0.11em;
+  background-color: #f2eee3;
+}
+
+font input::placeholder {
+  color: #333;
+  font-size: 10px;
+}
+
+font input:focus {
+    outline: 0;
+    border-bottom: 1px solid rgba(128, 155, 206, 0.7)
+    transition: 0.6s all ease;
+}
+
+.button {
+    width: 100%;
+    height: 30px;
+    border: 0;
+    outline: 0;
+    color: #f2eee3;
+    font-size: 15px;
+    font-weight: 400;
+    position: relative;
+    z-index: 3;
+    background: #8288ff;
+    font-family: "Source Sans Pro", sans-serif;
+    cursor: pointer;
+    border-radius: 5px;
 }
